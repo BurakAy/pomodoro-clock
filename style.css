@@ -1,0 +1,118 @@
+body {
+    background: #f7f4ef;
+}
+
+.wrapper {
+    margin: 50px auto;
+    width: 75%;
+    text-align: center;
+    min-width: 200px;
+}
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 60px;
+    margin-top: 0;
+    
+}
+
+h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 100px;
+    margin: 0 auto;
+    max-width: 300px;
+    min-width: 200px;
+}
+
+h3 {
+    margin-top: 0;
+    margin-bottom: 6px;
+    font-size: 20px;
+    padding: 5px;
+}
+
+h4 {
+    margin-top: 4px;
+    margin-bottom: 0;
+    font-size: 17px;
+}
+
+hr {
+    height: 5px;
+    background-color: #333;
+    max-width: 300px;
+}
+
+.controls {
+    margin-top: 30px;
+    padding-bottom: 30px;        
+}
+
+.action {
+    margin: 0 20px;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.break, .session {
+    display: inline-block;
+    margin: 8px 25px;
+    font-size: 25px;
+}
+
+span#break {
+    display: inline-block;
+    width: 27.8px;
+    height: 29px;
+}
+
+.break button, .session button {
+    vertical-align: middle;
+}
+
+.fa-play {
+    color: #6ab76b;
+}
+
+.fa-stop {
+    color: #d65151;
+}
+
+footer {
+    text-align: center;
+    font-size: 13px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #333;
+    font-family: 'Oswald', sans-serif;
+}
+
+@media (max-width: 440px) {
+    .wrapper {
+        margin: 10px auto;
+    }
+
+    h1 {
+        font-size: 40px;
+        margin-bottom: 5px;
+    }
+    
+    h2 {
+        font-size: 60px;
+    }
+
+    .controls {
+        margin-top: 15px;
+        padding-bottom: 15px;
+    }
+}

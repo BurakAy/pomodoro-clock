@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Pomodoro Clock</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+</head>
+
+<body>
+    <div class="wrapper">
+        <h1>Session Timer</h1>
+
+        <div class="timer">
+            <h2 id="time_display"></h2>
+        </div>
+        <hr>
+        <div class="break">
+            <h3 id="break_heading">BREAK</h3>
+            <button id="break_minus"><i class="fa fa-minus" aria-hidden="true"></i></button>
+            <span id="break">3</span>
+            <button id="break_plus"><i class="fa fa-plus" aria-hidden="true"></i></button>
+            <h4>min</h4>
+        </div>
+        <div class="session">
+            <h3 id="session_heading">SESSION</h3>
+            <button id="session_minus"><i class="fa fa-minus" aria-hidden="true"></i></button>
+            <span id="session">25</span>
+            <button id="session_plus"><i class="fa fa-plus" aria-hidden="true"></i></button>
+            <h4>min</h4>
+        </div>
+        <hr>
+        <div class="history">
+        </div>
+        <div class="controls">
+            <button class="action" id="start"><i class="fa fa-play fa-3x" aria-hidden="true"></i></button>
+            <button class="action" id="stop"><i class="fa fa-stop fa-3x" aria-hidden="true"></i></button>
+        </div>
+
+    </div>
+
+    <footer><i class="fa fa-clock-o" aria-hidden="true"></i>&nbsp;<a href="http://www.burakaydemir.com" target="_blank">burak aydemir</a></footer>
+
+    <script type="text/javascript" src="functionality.js"></script>
+</body>
+
+</html>
